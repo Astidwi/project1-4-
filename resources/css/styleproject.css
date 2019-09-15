@@ -1,0 +1,182 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0 ,0.7) , rgba(0, 0, 0, 0.7) ) , url(../img/perumahan1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:sans-serif;
+    border-bottom: 2px #fff;
+}
+
+.header
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: #fff;
+}
+
+.menu{
+    float: right;
+  
+}
+
+.menu li a{
+    display: inline-block;
+    float: right;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 3px solid #75ec14;
+    border-radius: 200px; /*Membuat lingkaran pada objek*/
+    margin-right: 20px;
+}
+
+.menu li a:hover{
+    border-bottom: 2px solid #75ec14;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: #75ec14;
+    padding: 0 10px;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(18, 167, 38);
+    transition: 0.3s;
+    border: 1px solid rgb(18, 167, 38);
+    color: #ffffff;
+}
+}
+
+ul li:nth-child(5) a{
+    color: 009f8b;
+}
+
+.header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100% , -0%);
+    text-align: center;
+}
+
+/* .join{ 
+    position: absolute;
+    top: 70%;
+    left: 53%;
+    color: #fff;
+    transform: translate(-50% -50%);
+    text-align: center;
+    color: 009f8b;
+    border: 3px solid #75ec14;
+    padding: 5px 10px;
+ } */
+
+ .header h1{
+     color: #fff;
+     float: left;
+    font-size: 70px;
+
+    font-weight: 200;
+    margin-bottom: 8px;
+
+ }
+
+ .header p{
+     color: #fff;
+     font-size: 24px;
+     font-weight: lighter;
+ }
+
+ .header button{
+     color: #fff;
+     background: #75ec14;
+     padding: 12px 32px;
+     border: none;
+ }
+ 
+ .header button:hover{
+    background-color: rgb(18, 167, 38);
+    transition: 0.3s;
+    border: 1px solid rgb(18, 167, 38);
+    color: #ffffff;
+ }
+
+ .logo img{
+     position: absolute;
+     width: 3o0%;
+     height: 30%;
+}
+/* SECTION2 */
+row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section{
+    padding: 80px 0; /*jarak*/
+}
+.long-copy{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 145%; /*jarak atas dan bawah antar kalimat paragraf*/
+    text-align: justify; /*text menjadi rata kanan dan kiri*/
+}
+.box{
+    padding: 1%;
+}
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+}
+.icon-big{
+    font-size: 350%;
+    display: block;
+    color: #E67E22;
+    margin-bottom: 10px;
+} 
+
+.long-copy{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 145px; /*jarak atas dan bawah antar kalimat paragraf*/
+    text-align: justify;
+}
+
+.box{
+    padding: 1%;
+}
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+}
+.icon-big{
+    font-size: 350%;
+    display: block;
+    color: #E67E22;
+    margin-bottom: 10px;
+}
